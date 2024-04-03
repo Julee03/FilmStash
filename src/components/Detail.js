@@ -29,13 +29,13 @@ const Detail = () => {
       setLoading(false);
     }
     getData();
-  }, []);
+  },[id]);
 
   return (
     <div className="p-4 mt-4 flex flex-col md:flex-row md:item-start justify-center w-full">
       {loading ? <div className="w-full flex justify-center items-center h-96"><ThreeCircles height={40} color="white"/></div> :
       <>
-      <img className="h-96 md:sticky top-24" src={mdetail.image} />
+      <img className="h-96 md:sticky top-24" src={mdetail.image} alt=""/>
       <div className="md:ml-6 ml-0 w-full md:w-1/2">
         <h1 className="text-3xl font-bold text-gray-500">
           {mdetail.title} <span className="text-xl">({mdetail.year})</span>

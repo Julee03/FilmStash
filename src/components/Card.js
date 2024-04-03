@@ -26,7 +26,7 @@ const Card = () => {
       {loading ? <div className="w-full flex justify-center items-center h-96"><Grid height={50} color="white"/></div> : 
       mdata.map((e, i) => {
         return (
-          <Link to={`/detail/${e.id}`}>
+          <Link to={`/${e.id}`}>
           <div
             key={i}
             className="card shadow-lg shadow-gray-800 p-2 cursor-pointer hover:-translate-y-3 transition-all duration-500 mt-5"
