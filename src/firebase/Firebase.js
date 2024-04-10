@@ -3,12 +3,12 @@ import {getFirestore, collection} from 'firebase/firestore';
 import { getAuth } from 'firebase/auth';
 
 const firebaseConfig = {
-  apiKey: process.env.REACT_APP_apiKey,
-  authDomain: process.env.REACT_APP_authDomain,
-  projectId: process.env.REACT_APP_projectId,
-  storageBucket: process.env.REACT_APP_storageBucket,
-  messagingSenderId: process.env.REACT_APP_messagingSenderId,
-  appId: process.env.REACT_APP_appId,
+  apiKey: process.env.REACT_APP_APIKEY,
+  authDomain: "filmystash.firebaseapp.com",
+  projectId: "filmystash",
+  storageBucket: "filmystash.appspot.com",
+  messagingSenderId: "441460901743",
+  appId: "1:441460901743:web:1c5b605e41059bd9dfca9a",
 };
 
 // Initialize Firebase
