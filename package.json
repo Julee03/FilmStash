@@ -24,8 +24,10 @@
     "react-stars": "^2.2.5",
     "stream": "npm:stream-browserify",
     "sweetalert": "^2.1.2",
+    "vm": "^0.1.0",
     "vm-browserify": "^1.1.2",
-    "web-vitals": "^2.1.4"
+    "web-vitals": "^2.1.4",
+    "webpack": "^5.91.0"
   },
   "scripts": {
     "start": "react-scripts start",
